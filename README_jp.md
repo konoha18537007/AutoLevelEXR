@@ -1,7 +1,6 @@
 # AutoLevelEXR
 
 ## 概要
-* [日本語 README](./README_jp.md)
 * DAZ3D で出力した EXR Depth マップのレベル調整を行い、 8bit/16bit グレースケール の PNG ファイルに変換します。
   レベル調整としては、**完全な黒ピクセルを除いた** 残りのピクセルのヒストグラムを、指定した範囲(デフォルト(0.1, 0.9))に線形に伸縮させる処理を行います。
 
@@ -10,7 +9,7 @@
 ## 使い方
 `main.py [--outMin OUTMIN] [--outMax OUTMAX] [--depth DEPTH] /path/to/DepthMap.exr`
 
-Exe 版を使う場合、`main.py` を `autoLevelEXR.exe` に置き換えてください。
+リリースページにある exe 版を使う場合、`main.py` を `autoLevelEXR.exe` に置き換えてください。
 もしくは、autoLevelEXR.exe のアイコンに EXR ファイルをドラッグ & ドロップでも行けます。
 
 ### 起動オプション

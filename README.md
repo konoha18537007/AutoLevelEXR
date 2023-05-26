@@ -10,7 +10,7 @@
 ## How to Use
 `main.py [--outMin OUTMIN] [--outMax OUTMAX] [--depth DEPTH] /path/to/DepthMap.exr`
 
-If you use exe version, replace `main.py` by `autoLevelEXR.exe`.
+If you use exe version at Releases page, replace `main.py` by `autoLevelEXR.exe`.
 Or just drag & drop EXR file onto autoLevelEXR.exe icon.
 
 ### Run Options
