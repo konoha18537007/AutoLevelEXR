@@ -7,13 +7,18 @@
 
 ![sample1](./imgs/1.png)
 
-* Run Options
+## How to Use
+`main.py [--outMin OUTMIN] [--outMax OUTMAX] [--depth DEPTH] /path/to/DepthMap.exr`
+
+If you use exe version, replace `main.py` by `autoLevelEXR.exe`.
+Or just drag & drop EXR file onto autoLevelEXR.exe icon.
+
+### Run Options
  - `--outMin <num>` : Min of Output Level range (0.0 - 1.0, default 0.1)
  - `--outMax <num>` : Max of Output Level range (0.0 - 1.0, default 0.9)
  - `--depth <num>` : Output grayscale's precision (bit) (8 or 16, default 8)
 
 ![sample1](./imgs/2.png) ![sample1](./imgs/3.png)
- 
 
 ## Note
 * The exe file in the release is made from main.py by use of pyinstaller.
