@@ -1,0 +1,4 @@
+imath==0.0.2
+numpy==1.24.3
+OpenEXR
+Pillow==9.5.0
